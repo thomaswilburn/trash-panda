@@ -43,7 +43,7 @@ var init = async function() {
     create(info.linkUrl);
   });
 
-  console.log(raccoon.repeat(5), "Trash bears deployed!", raccoon.repeat(5));
+  console.log(raccoon.repeat(5), "Trash pandas deployed!", raccoon.repeat(5));
   cleanup();
   browser.tabs.onRemoved.addListener(cleanup);
 
